@@ -246,7 +246,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 141, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
 .search button:hover {
-  background: #7e808a;
+  background: #84858f;
 }
 
 /* line 147, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
@@ -260,7 +260,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .header-med .logo {
   display: block;
   max-width: 100%;
-  height: 3.5rem;
+  height: 4rem;
   overflow: hidden;
   margin-top: auto;
   margin-bottom: auto;
@@ -269,7 +269,7 @@ input[type="search"]::-webkit-search-results-decoration {
 /* line 161, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
 .header-med .logo img {
   max-width: 100%;
-  height: 3.5rem;
+  height: 4rem;
 }
 
 /* line 168, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
