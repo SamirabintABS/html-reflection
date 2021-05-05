@@ -1811,7 +1811,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_clients.scss */
-.clientsBG {
+.clients {
   background: white;
   background: linear-gradient(180deg, #efefef 0%, white 12%);
 }
@@ -1959,7 +1959,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_email-form.scss */
-.emailBG {
+.email {
   background: #DDDDDD;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -2135,7 +2135,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_footer.scss */
-.mainFooterBG {
+.mainFooter {
   background: #333645;
   padding: 16px;
   color: white;
