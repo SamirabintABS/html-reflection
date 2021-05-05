@@ -1480,7 +1480,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc {
+.netmattersCult {
   margin-left: -32px;
   background: #333645;
   color: white;
@@ -1488,7 +1488,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 5, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc .descText {
+.netmattersCult .descText {
   padding: 16px;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -1496,7 +1496,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media screen and (max-width: 768px) {
   /* line 5, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-  .netmattersDesc .descText {
+  .netmattersCult .descText {
     margin-left: 32px;
     padding-right: 32px;
     width: 95%;
@@ -1504,23 +1504,23 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 21, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc h2 {
+.netmattersCult h2 {
   font-weight: 500;
 }
 
 /* line 25, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc .lead {
+.netmattersCult .lead {
   font-weight: 500;
   font-size: 1em;
 }
 
 /* line 30, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc p {
+.netmattersCult p {
   margin-top: 24px;
 }
 
 /* line 34, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc a {
+.netmattersCult a {
   display: inline-block;
   text-decoration: none;
   color: #333645;
@@ -1531,7 +1531,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 43, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_culture.scss */
-.netmattersDesc a:hover {
+.netmattersCult a:hover {
   background: #e6e6e6;
 }
 
@@ -1551,14 +1551,14 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
-.newsSelector {
+.latestNews {
   padding-top: 32px;
   padding-left: 16px;
   padding-right: 0;
 }
 
 /* line 5, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
-.newsSelector h2 {
+.latestNews h2 {
   margin-left: 4px;
   padding-bottom: 24px;
   margin-bottom: -6.4px;
@@ -1570,7 +1570,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media screen and (min-width: 768px) {
   /* line 5, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
-  .newsSelector h2 {
+  .latestNews h2 {
     margin-left: -16px;
   }
 }
@@ -1581,7 +1581,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* line 24, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
-.newsContainerBG {
+.newsContainer1 {
   background: #e6e6e6;
   background: linear-gradient(180deg, #efefef 0%, white 12%);
   margin-top: .4em;
@@ -1741,7 +1741,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .newsType-news .overlayBanner {
   display: block;
   padding: .2rem .5rem;
-  background: #D64541;
+  background: #4183D7;
   font-size: .75rem;
   font-weight: 600;
   position: absolute;
@@ -1758,17 +1758,17 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 169, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-news h3 {
-  color: #D64541;
+  color: #4183D7;
 }
 
 /* line 173, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-news .readMore {
-  background: #D64541;
+  background: #4183D7;
 }
 
 /* line 175, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-news .readMore:hover {
-  background: #bc2c28;
+  background: #286abd;
 }
 
 /* line 150, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
@@ -1780,7 +1780,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .newsType-carreers .overlayBanner {
   display: block;
   padding: .2rem .5rem;
-  background: #4183D7;
+  background: #D64541;
   font-size: .75rem;
   font-weight: 600;
   position: absolute;
@@ -1797,17 +1797,17 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 169, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers h3 {
-  color: #4183D7;
+  color: #D64541;
 }
 
 /* line 173, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers .readMore {
-  background: #4183D7;
+  background: #D64541;
 }
 
 /* line 175, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers .readMore:hover {
-  background: #286abd;
+  background: #bc2c28;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_clients.scss */
