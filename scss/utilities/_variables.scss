@@ -1,0 +1,38 @@
+$dark-1: #333645;
+$dark-1-hover: #22242E;
+
+$light-offset: darken(white, 10);
+$light-offset-2: #999AA2;
+
+$productNav-bg: #333645;
+
+$gutter: 16px;
+
+$product-colors: (
+    "bespSoft": #67809F,
+    "itSup":#4183D7,
+    "digitalmarketing": #2ECC71,
+    "telecoms": #D64541,
+    "webdesign": #926FB1,
+    "cybersecurity":#F62459,
+    "scs": #926FB1,
+);
+
+$news-types:(
+    "news": #D64541,
+    "carreers" : #4183D7,
+);
+
+$social-media:(
+    "fb": #4267B2,
+    "twitter": #1DA1F2,
+    "li": #2867b2,
+);
+
+$breakpoints:(
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1260px,
+);

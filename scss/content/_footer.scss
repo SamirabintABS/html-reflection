@@ -1,0 +1,71 @@
+.mainFooterBG{
+    background: $dark-1;
+    padding: $gutter;
+    color: white;
+}
+
+.footerContainer{
+
+    padding: ($gutter * 3) 0;
+
+    .row{
+        margin: 0;
+    }
+
+    .row > *{
+        padding: $gutter;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    h4{
+        margin-top: $gutter;
+        margin-bottom: $gutter * 1.5;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .col-12{
+        padding: 0;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0 0;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    li{
+        padding: 2px 0;
+        font-size: .8em;
+        font-weight: 400;
+    }
+
+    i{
+        background: darken($color: $dark-1, $amount: 10);
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        padding: .5em 1em;
+    }
+
+    .socialMediaContainer{
+        padding: 0;
+    }
+}
+
+@each $brand, $color in $social-media{
+    .socialMedia-#{$brand}{
+        &:hover i{
+            background: $color;
+        }
+    }
+}

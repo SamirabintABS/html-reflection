@@ -1,0 +1,57 @@
+.netmattersDesc{
+
+margin-left: - $gutter * 2;
+
+    .descText{
+        padding: $gutter;
+        padding-top: $gutter * 3;
+        padding-bottom: $gutter * 3;
+        @media screen and (max-width: map-get($map: $breakpoints , $key: "md" )){
+            margin-left: $gutter * 2;
+            padding-right: $gutter * 2;
+            width: 95%;
+        }
+    }
+    
+    background: $dark-1;
+    color: white;
+
+    font-size: 1em;
+
+    h2{
+        font-weight: 500;
+    }
+
+    .lead{
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    p{
+        margin-top: $gutter * 1.5;
+    }
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color:$dark-1;
+        background: white;
+        padding: .75em;
+        border-radius: .25em;
+        margin-top: 1em;
+
+        &:hover{
+            background:darken($color: white, $amount: 10)
+        }
+    }
+}
+
+.logobg{
+    margin: 0;
+    @media screen and (min-width:992px) {
+        background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+}

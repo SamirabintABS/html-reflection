@@ -1,0 +1,96 @@
+.imageRow{
+    overflow: hidden;
+}
+
+.imageRow{
+    background: none;
+    position: relative;
+    text-align: center;
+    .textHolder{
+        top: 50%;
+        left: 0%;
+        padding-bottom: $gutter * 2;
+        transform: translateY(-50%);
+        z-index: 3;
+        display: block;
+        position: absolute;
+        color:white;
+        h1{
+            font-size: 4em;
+            font-weight: 400;
+            margin-bottom: $gutter * 2;
+            letter-spacing: -1px;
+        }
+        p{
+            margin-bottom: $gutter * 3;
+        }
+        .col-12{
+            margin: auto;
+
+            @media screen and (min-width:992px){
+                max-width: 	960px;
+                text-align: left;
+                display: block;
+            }
+            @media screen and (min-width:1260px){
+                max-width: 	1140px;
+            }
+
+        }
+    }
+
+    .HeroImageCTA a{
+        font-size: 1.25em;
+        width: 16em;
+        //display: block;
+        padding: .7em;
+        border-radius: .1em;
+
+        //transform: translate(-50%, -50%);
+        z-index: 3;
+
+        background: map-get($product-colors , "digitalmarketing");
+        color:white;
+        text-decoration: none;
+
+        &:hover{
+            background: darken($color: map-get($product-colors , "digitalmarketing"), $amount: 10);
+            text-decoration: none;
+        }
+
+    }
+}
+
+.bgImage{
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 11em);
+
+
+    img{
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
+        min-height: calc(100vh - 11em);
+        min-width: 100%;
+    }
+
+    @media screen and (max-width:992px) {
+        height: calc(100vh - 5em);
+        img{
+            min-height: calc(100vh - 5em);
+        }
+    }
+
+    &:before {
+        position: absolute; 
+        z-index: 2;
+        display: block; 
+        content: "";
+        top: 0; right: 0; bottom: 0; left: 0;  
+        background: linear-gradient(90deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0.3393732492997199) 50%, rgba(0,0,0,0.7987570028011204) 100%);    
+    }
+}
