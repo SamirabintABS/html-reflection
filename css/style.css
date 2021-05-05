@@ -1780,7 +1780,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .newsType-carreers .overlayBanner {
   display: block;
   padding: .2rem .5rem;
-  background: #D64541;
+  background: #926FB1;
   font-size: .75rem;
   font-weight: 600;
   position: absolute;
@@ -1797,17 +1797,17 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* line 169, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers h3 {
-  color: #D64541;
+  color: #926FB1;
 }
 
 /* line 173, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers .readMore {
-  background: #D64541;
+  background: #926FB1;
 }
 
 /* line 175, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_latest-news.scss */
 .newsType-carreers .readMore:hover {
-  background: #bc2c28;
+  background: #79539a;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_clients.scss */
