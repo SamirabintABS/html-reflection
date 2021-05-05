@@ -291,7 +291,7 @@ input[type="search"]::-webkit-search-results-decoration {
   min-width: 4em;
   max-width: 4em;
   height: 3.5em;
-  margin-left: 32px;
+  margin-left: 48px;
   border-radius: .25em;
 }
 
@@ -332,7 +332,7 @@ input[type="search"]::-webkit-search-results-decoration {
 /* line 211, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
 .header-med .actions .search {
   margin-bottom: auto;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 3.5px 3.5px 0;
 }
 
 /* line 216, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
@@ -391,10 +391,9 @@ input[type="search"]::-webkit-search-results-decoration {
   background: #4183D7;
   color: white;
   border: none;
-  margin-left: auto;
 }
 
-/* line 258, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
+/* line 257, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_header.scss */
 .header-med .actions .supportButton:hover {
   background: #286abd;
 }
@@ -2225,6 +2224,11 @@ input[type="search"]::-webkit-search-results-decoration {
 /* line 67, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_footer.scss */
 .socialMedia-li:hover i {
   background: #2867b2;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_footer.scss */
+.socialMedia-insta:hover i {
+  background: #d93175;
 }
 
 /* line 2, ../../../../../../../../../../../../../Users/samira/Documents/html-reflection/scss/content/_awards.scss */
