@@ -5,7 +5,7 @@
 
     .phone{
         margin-top: .6em;
-        margin-left: auto;
+        margin-left: $gutter * 2;
         flex: 5 4em;
         max-width: 4em;
         min-width: 4em;
@@ -51,7 +51,7 @@
 
             i{
                 color: #333645;
-                font-size: 1.4rem;
+                font-size: 1rem;
                 min-width: 3rem;
             }
         }
@@ -87,7 +87,7 @@
     @include centerVert;
     width: 4em;
     height: 3.5em;
-    margin-left: $gutter * 2;
+    margin-left: $gutter * 3;
     border-radius: .25em;
     .menuText{
         margin-top: -.3em;
@@ -109,6 +109,7 @@
         margin-bottom: 0;
     }
 }
+
 
 .search{
     @include centerVert;
@@ -192,7 +193,7 @@
             max-width: 9em;
             flex-basis: 8em;
             height: 3.5em;
-            margin-left: $gutter * 2;
+            margin-left: $gutter * 1.5;
             border-radius: .25em;
             text-align: center;
             i{
@@ -209,16 +210,15 @@
             margin-left: $gutter;
         }
         .search{
-            //margin-left: $gutter * 3;
+            margin-left: $gutter * 1.5;
             margin-bottom: auto;
             border-radius: 0 3px 3px 0;
 
             input{
-                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%);
                 transition: border-color 150ms ,box-shadow 150ms;
                 &:focus{
                     border-color: #5bc0de;
-                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%), 0 0 8px rgba(91, 192, 222, 60%);
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, 8%), 0 0 8px rgba(91, 192, 222, 60%);
                 }
             };
 
@@ -227,7 +227,7 @@
             };
 
             @media screen and (min-width: map-get($map: $breakpoints, $key:lg )){
-                margin-left: $gutter * 2;
+                margin-left: $gutter * 1.5;
             };
 
         }
@@ -235,7 +235,7 @@
             background: $light-offset-2;
             color: white;
             border: none;
-            border-radius: 3px;
+            border-radius: 5px;
             &:hover{
                 background: darken($color: $light-offset-2, $amount: 10);
             }

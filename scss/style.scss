@@ -1,16 +1,16 @@
-@import 'utility/variables',
-        'utility/functions',
-        'utility/mixins',
-        'utility/selectors',
-        'utility/misc';
+@import 'utilities/variables',
+        'utilities/functions',
+        'utilities/mixins',
+        'utilities/helpers',
+        'utilities/misc';
 
 @import 'content/header',
-        'content/productNav',
-        'content/cta-banner',
-        'content/products',
-        'content/description',
-        'content/news',
-        'content/_client-footer',
+        'content/service-navigation',
+        'content/banner',
+        'content/service-cards',
+        'content/culture',
+        'content/latest-news',
+        'content/clients',
         'content/email-form',
         'content/footer',
         'content/awards';

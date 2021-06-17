@@ -16,13 +16,14 @@
         position: absolute;
         color:white;
         h1{
-            font-size: 4em;
+            font-size: 3rem;
             font-weight: 400;
             margin-bottom: $gutter * 2;
-            letter-spacing: -1px;
+            letter-spacing: 1px;
         }
         p{
             margin-bottom: $gutter * 3;
+            font-weight: 400;
         }
         .col-12{
             margin: auto;
@@ -41,10 +42,11 @@
 
     .HeroImageCTA a{
         font-size: 1.25em;
-        width: 16em;
+        font-weight: 400;
+        width: 17em;
         //display: block;
-        padding: .7em;
-        border-radius: .1em;
+        padding: .8em;
+        border-radius: .2em;
 
         //transform: translate(-50%, -50%);
         z-index: 3;
