@@ -19,6 +19,8 @@
 
 .newsContainer{
     padding: 0;
+    background:$light-offset;
+    background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 12%);
 }
 
 .newsContainer1{
@@ -27,6 +29,7 @@
     margin-top: .4em;
     padding-top: $gutter;
     padding-bottom: $gutter;
+    
 }
 
 .newsContainer .row{
@@ -97,11 +100,6 @@
         }
     }
 
-    .desc{
-        font-size: .9em;
-        min-height: 5em;
-    }
-
     .title{
         display: block;
         font-size: 1em;
@@ -109,6 +107,10 @@
         min-height: 3em;
     }
 
+    .desc{
+        font-size: .9em;
+        min-height: 5em;
+    }
 
     h3:hover{
         text-decoration: underline;
