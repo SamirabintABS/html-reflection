@@ -5,7 +5,6 @@
 
     .phone{
         margin-top: .6em;
-        margin-left: $gutter * 2;
         flex: 5 4em;
         max-width: 4em;
         min-width: 4em;
@@ -117,7 +116,7 @@
     display: flex;
     flex: 1;
     input{
-        padding-left: $gutter / 2;
+        padding-left: $gutter / 3;
         flex: 1;
         min-width: 8em;
         background: white;
