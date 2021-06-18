@@ -178,7 +178,7 @@
             min-width: 4em;
             max-width: 4em;
             height: 3.5em;
-            margin-left: $gutter * 1.5;
+            margin-left: $gutter * 3;
             border-radius: .25em;
             i{
                 font-size: 1.7em
@@ -229,16 +229,21 @@
             };
 
         }
+
+     
+
         .searchButton{
             background: $light-offset-2;
             color: white;
             border: none;
             border-radius: 5px;
+            margin-left: $gutter * 1.5;
             &:hover{
                 background: darken($color: $light-offset-2, $amount: 10);
             }
         }
 
+    
         .contactButton{
             background: $light-offset-2;
             color: white;
