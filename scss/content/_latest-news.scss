@@ -58,6 +58,8 @@
     color:$dark-1;
     padding: 0;
     margin: 1em;
+    -webkit-box-shadow: 0 1px 35px rgb(204, 204, 204);
+	box-shadow: 0 1px 35px rgb(204, 204, 204);
     a{
         text-decoration: none;
         color: white;
